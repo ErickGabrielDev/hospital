@@ -76,8 +76,7 @@ alter table consulta add foreign key fk_codigo_especialidade (codigo_especialida
 
 
 
-[11:04] KAUE CAIRES DOS SANTOS SOUZA
--- 1 Quantas vezes Natalie Portman foi indicada ao Oscar?
+## -- 1 Quantas vezes Natalie Portman foi indicada ao Oscar?
 
 SELECT * FROM indicados_ao_oscar WHERE nome_do_indicado = 'nathalie portman' 
 
